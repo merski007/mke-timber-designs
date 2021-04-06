@@ -1,4 +1,4 @@
-const PiklerForm = () => {
+const PiklerForm = ({products}) => {
     return (
         <div>
             <form>
@@ -12,7 +12,7 @@ const PiklerForm = () => {
                         What would you like to order?
                     </label>
                     <select id="productDropdown" name="productDropdown">
-                        <optgroup label="Pikler Triangle">
+                        {/* <optgroup label="Pikler Triangle">
                             <option value="triangleWBoard">Triangle w/ Climbing Board ($200)</option>
                             <option value="climbingBoard">Climbing Board ($50)</option>
                         </optgroup>
@@ -27,7 +27,13 @@ const PiklerForm = () => {
                             <option value="MdArch">Medium Arch ($100)</option>
                             <option value="LgArch">Large Arch ($140)</option>
                             <option value="AllArch">All 3 Arches ($240)</option>
-                        </optgroup>
+                        </optgroup> */}
+                        {products
+                        .filter(product => product.category === 'Pikler')
+                        .sort((a, b) => (a.sku > b.sku) ? 1 : -1)
+                        .map((product) => (
+<option key={product.id} value={product.sku}>{product.name} (${product.price})</option>
+                        ))}
                     </select>
                 </div>
 

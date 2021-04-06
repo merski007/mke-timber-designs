@@ -1,13 +1,26 @@
-import './PiklerForm';
+import { useState, useEffect } from 'react'
+import PiklerForm from './components/PiklerForm';
 
-
-import logo from './logo.svg';
-import './App.css';
-import PiklerForm from './PiklerForm';
 
 function App() {
+  const [products, setProducts] = useState([])
+
+  useEffect(() => {
+    const getProducts = async () => {
+      const productsFromServer = await fetchProducts()
+      setProducts(productsFromServer)
+    }
+    getProducts()
+  }, [])
+
+  const fetchProducts = async () => {
+    const res = await fetch('http://localhost:5000/products')
+    const data = await res.json()
+    return data
+  }
+
   return (
-    <div className="App">
+    <div>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,7 +31,7 @@ function App() {
         </p>
       </header> */}
 
-      <PiklerForm />
+      <PiklerForm products={products}/>
     </div>
   );
 }
