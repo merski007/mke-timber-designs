@@ -1,179 +1,232 @@
 {
   "products": [
-      {
-        "id": 1,
-        "sku": "PB001",
-		"category": "Puzzle Board",
-        "name": "Puzzle Board: 1 Letter",
-        "description": "",
-        "price": 10
-      },
-      {
-        "id": 2,
-        "sku": "PB002",
-		"category": "Puzzle Board",
-        "name": "Puzzle Board: 2 Letter",
-        "description": "",
-        "price": 13
-      },
-      {
-        "id": 3,
-        "sku": "PB003",
-		"category": "Puzzle Board",
-        "name": "Puzzle Board: 3 Letter",
-        "description": "",
-        "price": 18
-      },
-      {
-        "id": 4,
-        "sku": "PB004",
-		"category": "Puzzle Board",
-        "name": "Puzzle Board: 4 Letter",
-        "description": "",
-        "price": 23
-      },
-      {
-        "id": 5,
-        "sku": "PB005",
-		"category": "Puzzle Board",
-        "name": "Puzzle Board: 5 Letter",
-        "description": "",
-        "price": 25
-      },
-      {
-        "id": 6,
-        "sku": "PB006",
-		"category": "Puzzle Board",
-        "name": "Puzzle Board: 6 Letter",
-        "description": "",
-        "price": 26
-      },
-      {
-        "id": 7,
-        "sku": "PB007",
-		"category": "Puzzle Board",
-        "name": "Puzzle Board: 7 Letter",
-        "description": "",
-        "price": 28
-      },
-      {
-        "id": 8,
-        "sku": "PB008",
-		"category": "Puzzle Board",
-        "name": "Puzzle Board: 8 Letter",
-        "description": "",
-        "price": 30
-      },
-      {
-        "id": 9,
-        "sku": "PB009",
-		"category": "Puzzle Board",
-        "name": "Puzzle Board: 9 Letter",
-        "description": "",
-        "price": 32
-      },
-      {
-        "id": 10,
-        "sku": "PB010",
-		"category": "Puzzle Board",
-        "name": "Puzzle Board: 10 Letter",
-        "description": "",
-        "price": 34
-      },
-      {
-        "id": 11,
-        "sku": "AR001",
-		"category": "Pikler",
-        "name": "Small Arch",
-        "description": "",
-        "price": 60
-      },
-      {
-        "id": 12,
-        "sku": "AR002",
-		"category": "Pikler",
-        "name": "Medium Arch",
-        "description": "",
-        "price": 100
-      },
-      {
+    {
+      "category": "Puzzle Board",
+      "description": "",
+      "price": 10,
+      "value": "PB001",
+      "label": "Puzzle Board: 1 Letter"
+    },
+    {
+      "category": "Puzzle Board",
+      "description": "",
+      "price": 13,
+      "value": "PB002",
+      "label": "Puzzle Board: 2 Letter"
+    },
+    {
+      "category": "Puzzle Board",
+      "description": "",
+      "price": 18,
+      "value": "PB003",
+      "label": "Puzzle Board: 3 Letter"
+    },
+    {
+      "category": "Puzzle Board",
+      "description": "",
+      "price": 23,
+      "value": "PB004",
+      "label": "Puzzle Board: 4 Letter"
+    },
+    {
+      "category": "Puzzle Board",
+      "description": "",
+      "price": 25,
+      "value": "PB005",
+      "label": "Puzzle Board: 5 Letter"
+    },
+    {
+      "category": "Puzzle Board",
+      "description": "",
+      "price": 26,
+      "value": "PB006",
+      "label": "Puzzle Board: 6 Letter"
+    },
+    {
+      "category": "Puzzle Board",
+      "description": "",
+      "price": 28,
+      "value": "PB007",
+      "label": "Puzzle Board: 7 Letter"
+    },
+    {
+      "category": "Puzzle Board",
+      "description": "",
+      "price": 30,
+      "value": "PB008",
+      "label": "Puzzle Board: 8 Letter"
+    },
+    {
+      "category": "Puzzle Board",
+      "description": "",
+      "price": 32,
+      "value": "PB009",
+      "label": "Puzzle Board: 9 Letter"
+    },
+    {
+      "category": "Puzzle Board",
+      "description": "",
+      "price": 34,
+      "value": "PB010",
+      "label": "Puzzle Board: 10 Letter"
+    },
+    {
+      "category": "Pikler",
+      "description": "",
+      "price": 60,
+      "value": "AR001",
+      "label": "Small Arch"
+    },
+    {
+      "category": "Pikler",
+      "description": "",
+      "price": 100,
+      "value": "AR002",
+      "label": "Medium Arch"
+    },
+    {
+      "category": "Pikler",
+      "description": "",
+      "price": 140,
+      "value": "AR003",
+      "label": "Large Arch"
+    },
+    {
+      "category": "Pikler",
+      "description": "",
+      "price": 240,
+      "value": "AR004",
+      "label": "All 3 Arches"
+    },
+    {
+      "category": "Pikler",
+      "description": "",
+      "price": 200,
+      "value": "TR001",
+      "label": "Triangle w/ Climbing Board"
+    },
+    {
+      "category": "Pikler",
+      "description": "",
+      "price": 50,
+      "value": "TR002",
+      "label": "Climbing Board"
+    },
+    {
+      "category": "Pikler",
+      "description": "Pikler Triangle w/ Climbing Board and Small Arch",
+      "price": 240,
+      "value": "TR003",
+      "label": "Triangle + Climbing Board + Small Arch"
+    },
+    {
+      "category": "Pikler",
+      "description": "Pikler Triangle w/ Climbing Board and Medium Arch",
+      "price": 280,
+      "value": "TR004",
+      "label": "Triangle + Climbing Board + Medium Arch"
+    },
+    {
+      "category": "Pikler",
+      "description": "Pikler Triangle w/ Climbing Board and Large Arch",
+      "price": 320,
+      "value": "TR005",
+      "label": "Triangle + Climbing Board + Large Arch"
+    },
+    {
+      "category": "Pikler",
+      "description": "Pikler Triangle w/Climbing Board and all 3 arch sizes",
+      "price": 440,
+      "value": "TR006",
+      "label": "Triangle + Climbing Board + All 3 Arches"
+    },
+    {
+      "category": "Puzzle Board",
+      "description": "",
+      "price": 10,
+      "value": "MI001",
+      "label": "Shipping Fee"
+    }
+  ],
+  "orders": [
+    {
+      "product": {
         "id": 13,
         "sku": "AR003",
-		"category": "Pikler",
+        "category": "Pikler",
         "name": "Large Arch",
         "description": "",
-        "price": 140
+        "price": 140,
+        "value": "AR003",
+        "label": "Large Arch"
       },
-      {
-        "id": 14,
-        "sku": "AR004",
-		"category": "Pikler",
-        "name": "All 3 Arches",
-        "description": "",
-        "price": 240
-      },
-      {
-        "id": 15,
-        "sku": "TR001",
-		"category": "Pikler",
-        "name": "Triangle w/ Climbing Board",
-        "description": "",
-        "price": 200
-      },
-      {
+      "email": "mketimberdesigns@gmail.com",
+      "name": "mark",
+      "phone": "4148408665",
+      "comments": "comments",
+      "id": 1
+    },
+    {
+      "product": {
         "id": 16,
         "sku": "TR002",
-		"category": "Pikler",
+        "category": "Pikler",
         "name": "Climbing Board",
         "description": "",
-        "price": 50
+        "price": 50,
+        "value": "TR002",
+        "label": "Climbing Board"
       },
-      {
-        "id": 17,
-        "sku": "TR003",
-		"category": "Pikler",
-        "name": "Triangle + Climbing Board + Small Arch",
-        "description": "Pikler Triangle w/ Climbing Board and Small Arch",
-        "price": 240
-      },
-      {
-        "id": 18,
-        "sku": "TR004",
-		"category": "Pikler",
-        "name": "Triangle + Climbing Board + Medium Arch",
-        "description": "Pikler Triangle w/ Climbing Board and Medium Arch",
-        "price": 280
-      },
-      {
-        "id": 19,
-        "sku": "TR005",
-		"category": "Pikler",
-        "name": "Triangle + Climbing Board + Large Arch",
-        "description": "Pikler Triangle w/ Climbing Board and Large Arch",
-        "price": 320
-      },
-      {
-        "id": 20,
-        "sku": "TR006",
-		"category": "Pikler",
-        "name": "Triangle + Climbing Board + All 3 Arches",
-        "description": "Pikler Triangle w/Climbing Board and all 3 arch sizes",
-        "price": 440
-      },
-      {
-        "id": 21,
-        "sku": "MI001",
-		"category": "Puzzle Board",
-        "name": "Shipping Fee",
-        "description": "",
-        "price": 10
-      }
-  ],
-  "comments": [
+      "email": "mketimberdesigns@gmail.com",
+      "name": "mark",
+      "phone": "4148408665",
+      "comments": "order 2",
+      "id": 2
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "product": {
+        "id": 15,
+        "sku": "TR001",
+        "category": "Pikler",
+        "name": "Triangle w/ Climbing Board",
+        "description": "",
+        "price": 200,
+        "value": "TR001",
+        "label": "Triangle w/ Climbing Board"
+      },
+      "email": "mketimberdesigns@gmail.com",
+      "name": "mark",
+      "phone": "4148408665",
+      "comments": "order 3",
+      "id": 3
+    },
+    {
+      "product": {
+        "category": "Pikler",
+        "description": "Pikler Triangle w/ Climbing Board and Large Arch",
+        "price": 320,
+        "value": "TR005",
+        "label": "Triangle + Climbing Board + Large Arch"
+      },
+      "email": "mketimberdesigns@gmail.com",
+      "name": "mark",
+      "phone": "4148408665",
+      "comments": "order 4",
+      "id": 4
+    },
+    {
+      "product": {
+        "category": "Pikler",
+        "description": "Pikler Triangle w/ Climbing Board and Small Arch",
+        "price": 240,
+        "value": "TR003",
+        "label": "Triangle + Climbing Board + Small Arch"
+      },
+      "email": "MERSKI007@YAHOO.COM",
+      "name": "LAURA A MERSENSKI",
+      "phone": "4148408665",
+      "comments": "order 5",
+      "id": 5
     }
   ],
   "profile": {
